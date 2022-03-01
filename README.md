@@ -1,1 +1,1 @@
-# CPSC362-Group5
+# CPSC362-Group5: Buy. Sell. Titan
