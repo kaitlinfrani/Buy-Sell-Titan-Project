@@ -6,9 +6,9 @@ Currently added features:
 Simple login page 
 
 #Authors
--Elizabeth Zimmerman
--Nathan Tran
--Ankit Patel
--Zahid Gul
--Karim Sologuren
--Kaitlin Frani
+- Elizabeth Zimmerman
+- Nathan Tran
+- Ankit Patel
+- Zahid Gul
+- Karim Sologuren
+- Kaitlin Frani
