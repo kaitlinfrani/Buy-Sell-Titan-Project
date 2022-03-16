@@ -5,7 +5,7 @@ Buy. Sell. Titan is an app that allows students and faculty at CSUF to buy and s
 Currently added features:
 Simple login page 
 
-#Authors
+# Authors
 - Elizabeth Zimmerman
 - Nathan Tran
 - Ankit Patel
