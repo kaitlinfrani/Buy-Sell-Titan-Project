@@ -9,6 +9,6 @@ Simple login page
 - Elizabeth Zimmerman
 - Nathan Tran
 - Ankit Patel
-- Zahid Gul
 - Karim Sologuren
 - Kaitlin Frani
+- Zahid Gul
