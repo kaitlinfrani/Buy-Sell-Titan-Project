@@ -9,8 +9,9 @@ loginButton.addEventListener("click", (e) => {
     // Get the values input by the user in the form fields
     const username = loginForm.username.value;
     const password = loginForm.password.value;
+    user_email = "@csu.fullerton.edu";
 
-    if (username === "user@csu.fullerton.edu" && password === "csuf") {
+    if (username.includes(user_email)) {
         // If the credentials are valid, show an alert box and reload the page
         alert("You have successfully logged in.");
         location.reload();
