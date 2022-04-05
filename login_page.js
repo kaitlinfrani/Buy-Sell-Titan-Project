@@ -15,7 +15,12 @@ loginButton.addEventListener("click", (e) => {
         // If the credentials are valid, show an alert box and reload the page
         alert("You have successfully logged in.");
         location.reload();
-    } else {
+        
+        // Next step: Lead user to shop
+        //window.location = "https://google.com";
+
+    } 
+    else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
     }
