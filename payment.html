@@ -2,7 +2,7 @@
  <html>
  <head>
  	<title>Payment</title>
- 	<link rel="stylesheet" type="text/css" href="viewShop_products.css">
+	<link rel="stylesheet" href="payment.css">
  	<script type="text/javascript" src="payment.js"></script>
  </head>
  <body>
@@ -10,20 +10,17 @@
  	<h3>Item Checkout Page</h3>
 
  	<form name="paypal" onsubmit="return form2()">
-
- 	<p>Click Below To Submit Payment</p>
  	
     <p> Items In Cart: 2</p>
-     <p>Total: $55.00
+    <p>Total: $55.00</p>
+	<p>Click Below To Submit Payment</p>
+
 
  	<output type="amount" name="payment" placeholder="Amount in USD">
+	<br>
+	<a href="http://www.paypal.com" class="btn" id="pay">PAY NOW</a>
 
- 	
-
-
- 	
- 	<a href="http://www.paypal.com">PAY NOW </a>
  </form>
  </div>
  </body>
- </html> 
+ </html>
