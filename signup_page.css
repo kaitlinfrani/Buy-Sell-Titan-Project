@@ -1,9 +1,5 @@
 /* Make the page use the entire screen */
 /* Use coolors for color palette */
-
-html{
-    height: 100%;
-  }
   
   /* Login Header and Outside */
   body {
@@ -16,6 +12,10 @@ html{
     /*outside background color*/
     background-color: #e0fbfc;
     color: #ee6c4d;
+  }
+
+  h4 {
+    font-size: 50px;
   }
   
   /* White rectangle in the middle of the screen */

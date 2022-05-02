@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
     // Get the values input by the user in the form fields
     const username = loginForm.username.value;
     const password = loginForm.password.value;
-    user_email = "@csu.fullerton.edu";
+    const user_email = "@csu.fullerton.edu";
 
     if (username.includes(user_email)) {
         // If the credentials are valid, show an alert box and reload the page
@@ -17,11 +17,11 @@ loginButton.addEventListener("click", (e) => {
         location.reload();
         
         // Next step: Lead user to shop
-        //window.location = "https://google.com";
+        window.location = "viewShop_products.html";
 
     } 
     else {
-        // Otherwise, make the login error message show (change its oppacity)
+        // Otherwise, make the login error message show (change its opacity)
         loginErrorMsg.style.opacity = 1;
     }
 })
